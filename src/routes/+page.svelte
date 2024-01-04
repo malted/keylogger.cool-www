@@ -53,11 +53,15 @@
 <style>
 	main {
 		margin-top: 10vh;
+
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
 		text-wrap: balance;
+	}
+
+	header {
 	}
 
 	.install {

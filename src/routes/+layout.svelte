@@ -1,9 +1,11 @@
 <script>
 	import "../global.css";
+	import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <!--<div id="noise" />-->
 <slot />
+<Footer />
 
 <style>
 	#noise {

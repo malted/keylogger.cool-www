@@ -21,9 +21,16 @@
 </script>
 
 <main>
-	<img src="/logo.svg" alt="logo" width="136" id="logo-main" class="mb-8" />
-	<h1>Keylogging for Data Science</h1>
-	<h2>Securely collect statistics about how you type, then analyse it à la Spotify wrapped.</h2>
+	<center class="text-red-500" style="text-wrap: balance;"
+		>Caution: pre-alpha, in-development software. Do not download until stable. Will probably be a
+		week or two. Check GitHub. Message me if you're interested in this!
+	</center>
+
+	<header>
+		<img src="/logo.svg" alt="logo" width="136" id="logo-main" class="mb-8" />
+		<h1>Keylogging for Data Science</h1>
+		<h2>Securely collect statistics about how you type, then analyse it à la Spotify wrapped.</h2>
+	</header>
 
 	<div class="flex flex-col items-center m-16">
 		<p>Install</p>
@@ -44,14 +51,14 @@
 			</p>
 		{/if}
 	</div>
-
-	<!--{#if !data.isMac}-->
-
-	<!--{/if}-->
 </main>
 
 <style>
 	main {
+		margin: 1rem;
+	}
+
+	header {
 		margin-top: 10vh;
 
 		display: flex;
@@ -59,9 +66,6 @@
 		align-items: center;
 		text-align: center;
 		text-wrap: balance;
-	}
-
-	header {
 	}
 
 	.install {
